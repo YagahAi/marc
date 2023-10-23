@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="response.css">
+    <style>
+        .marg {
+            margin-bottom: 2rem;
+        }
+        .btnn button{
+            outline: none;
+            cursor: pointer;
+            padding: 0.5rem 1rem;
+            border-radius: 8px;
+            border: none;
+            color: white;
+            background-color: blue;
+        }
+        .btnn button:hover {
+            background-color: orange;
+            border: blue solid 1.5px;
+        }
+        .btn21 button{
+            outline: none;
+            cursor: pointer;
+            padding: 0.5rem 1rem;
+            border-radius: 8px;
+            border: none;
+            color:whitesmoke;
+            background-color: blue;
+        }
+        .btn21 button:hover {
+            background-color: orange;
+            border: blue solid 1.5px;
+        }
+        label {
+            font-weight: 700;
+            font-size: 18px;
+        }
+        form {
+            border: solid orange 2px;
+            border-radius: 16px;
+            padding: 2rem;
+            width: 40%;
+            text-align: center;
+            margin: 4rem auto;
+        }
+    </style>
+    <title>Sign-Up</title>
+</head>
+<a href="index.html" class="container hm">Back</a>
+<body class="container su">
+        
+    <form class="row g-12">
+        <div class="col-auto marg">
+            <label for="username" class="visible">username</label>
+            <input type="text" id= "username" placeholder= "Username" />
+        </div>
+        <div class="col-auto marg">
+            <label for="surname" class="visible">surname</label>
+            <input type="text" id= "surname" placeholder= "surname" />
+        </div>
+        <div class="col-auto marg">
+            <label for="lastname" class="visible">lastname</label>
+            <input type="text" id= "lastname" placeholder= "lastname" />
+        </div>
+        <div class="col-auto marg">
+            <label for="gender" class="visible">gender</label>
+            <col-2> <input type="text" id="gender" placeholder="gender" />
+        </div>
+        <div class="col-auto marg">
+            <label for="staticEmail2" class="visible">Email</label>
+            <input type="text" id="staticEmail2" placeholder="Email@example.com" />
+        </div>
+        <div class="col-auto marg">
+            <label for="phonenumber" class="visible">phonenumber</label>
+            <input type="number" id="phonenumber" placeholder="phonenumber" />
+        </div>
+        <div class="col-auto marg">
+            <label for="number+text" class="visible">address</label>
+            <input type="text" id="form form-control" placeholder="address" />
+        </div>
+        <div class="col-auto marg">
+            <label for="text" class="visible">city</label>
+            <input type="text" id="city" placeholder="city" />
+        </div>
+        <div class="col-auto marg">
+            <label for="number" class="visible">zip-code</label>
+            <input type="number" id="zip-code" placeholder="zip-code" />
+        </div>
+        <div class="col-auto marg">
+            <label for="text" class="visible">city</label>
+            <input type="text" id="state" placeholder="state" />
+            </div>
+        <div class="col-auto marg">
+            <label for="text" class="visible">country</label>
+            <input type="text" id="country" placeholder="country" />
+        </div>
+            <div class="col-auto marg">
+                <label for="inputPassword2" class="visually-hidden">password</label>
+            <input type="password" id="form form-control" Placeholder="Password" />
+        </div>
+        <div class="col-auto marg">
+            <label for="confirm-password" class="visually-hidden">confirm-password</label>
+            <input type="password" id="form form-control" placeholder="Confirm Password" />
+        </div>
+        <div class="col-auto btnn">
+            <button type="button" onclick="signUp()">Sign-Up</button>
+        </div>
+        <div class="justify-content-lg-start">
+            <p> Already have account? </p>
+        </div>
+        <div class="col btn21">
+            <a href="signin.html" type="btn21" onclick="signin()">SignIn</a>
+        </div>
+    </form>
+<script src="index.js"></script>
+</body>
+</html>

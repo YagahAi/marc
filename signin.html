@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="response.css">
+    <title>Sign-In</title>
+    <style>
+        form {
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            border: solid orange 2px;
+            border-radius: 16px;
+            padding: 2rem;
+            width: 30%;
+            margin: 4rem auto;
+        }
+        input {
+            width: 50%;
+            margin-bottom: 1rem;
+        }
+        button {
+            outline: none;
+            cursor: pointer;
+            padding: 0.5rem 1rem;
+            border-radius: 8px;
+            border: none;
+            color: white;
+            background-color: blue;
+            margin-bottom: 1rem;
+        }
+        button:hover {
+            background-color: orange;
+            border: blue solid 1.5px;
+        }
+    </style>
+</head>
+<body class="container .sn">
+    <form>
+    <input type="text" id= "username"placeholder="Username"/>
+    <input type="Password" id="password" placeholder="password" />
+    <button type="button" onclick="signIn()">Sign-In</button>
+    <div class="justify-content-end">
+        <a href="forgottenpass.html" style="color: blue;" type="ul">Forgotten-Password</a>
+    </div>
+    </form>
+    <script src="index.js"></script>
+</body>
+</html>
